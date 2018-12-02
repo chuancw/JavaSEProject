@@ -23,4 +23,8 @@ public class Person implements Comparable {
     public int getAge() {
         return age;
     }
+
+    public Person() {
+    }
+
 }

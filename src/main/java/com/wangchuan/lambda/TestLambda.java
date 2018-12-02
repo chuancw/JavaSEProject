@@ -4,6 +4,12 @@ import java.util.Arrays;
 
 public class TestLambda {
 
+    public static void printInstanceOf(){
+
+        Person person = new Person();
+        System.out.println(person instanceof Comparable);
+    }
+
     public static void main(String[] args) {
 
 
@@ -17,5 +23,8 @@ public class TestLambda {
         for(Person persons:person){
             System.out.println(persons.getAge());
         }
+
+        printInstanceOf();
+
     }
 }
